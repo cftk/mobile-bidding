@@ -6,8 +6,8 @@ import Admin from './Admin';
 import User from './User';
 
 const CLIENT_ID = '106678752149-b866dj46pea661up5rog69raduuilefc.apps.googleusercontent.com';
-const CLIENT_SECRET = 'yWd8Dbpbca0JvRDj49N-cYrg';
-const REFRESH_TOKEN = '1/WpR-AFo8Y5QATskuQg8RVMS4Nmkq3AXcdsRiS0U2Y04';
+const CLIENT_SECRET = 'oYI246alaYw88y0xT7BUwaOd';
+const REFRESH_TOKEN = '1/JbBbhtp-o4NeM5CelMXxEvXAHcbGXWPdz7KMrmPVfdPuxouIr220lSuG_LaFEiVr';
 
 const REFRESH_URL = "https://www.googleapis.com/oauth2/v4/token";
 const GMAIL_API = "https://www.googleapis.com/gmail/v1/users/me/messages/send";
