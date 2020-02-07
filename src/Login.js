@@ -5,8 +5,8 @@ import fire from './fire';
 import Admin from './Admin';
 import User from './User';
 
-const CLIENT_ID = '106678752149-6fhc1s1ebs2n3vcefamuctssrjtomiqd.apps.googleusercontent.com';
-const CLIENT_SECRET = 'BkS09X2yY1XFJx-lOcEXo6Te';
+const CLIENT_ID = '106678752149-b866dj46pea661up5rog69raduuilefc.apps.googleusercontent.com';
+const CLIENT_SECRET = '2fo-1JOelT5AXwLzeAEjeOVO';
 const REFRESH_TOKEN = '1/klPozYkvMH6N2G5bG7jHmWbwOTrjKCQuyWodJEmAqAw';
 
 const REFRESH_URL = "https://oauth2.googleapis.com/token";
