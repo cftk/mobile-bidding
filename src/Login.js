@@ -10,7 +10,7 @@ const CLIENT_SECRET = 'BkS09X2yY1XFJx-lOcEXo6Te';
 const REFRESH_TOKEN = '1/AIzaSyBkzxOmR7x47yX7XKTDZyPdVkyMlV_-Be4';
 
 const REFRESH_URL = "https://www.googleapis.com/oauth2/v4/token";
-const GMAIL_API = "https://www.googleapis.com/gmail/v1/users/me/messages/send";
+const GMAIL_API = "https://www.googleapis.com/upload/gmail/v1/users/me/messages/send";
 
 const ACCESS_REQUEST = `grant_type=refresh_token&client_id=${encodeURIComponent(CLIENT_ID)}&client_secret=${encodeURIComponent(CLIENT_SECRET)}&refresh_token=${encodeURIComponent(REFRESH_TOKEN)}`;
 
