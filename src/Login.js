@@ -99,14 +99,13 @@ class Login extends Component {
 			fetch(REFRESH_URL, REFRESH_REQUEST).then( response => {
 				return(response.json());
 	        }).then( response_json =>  {
-		    console.log(response_json);
 	            this.sendEmail(phone_mail, itemID, response_json.access_token, message);
 	    	});
 		}
 	}
 
 	sendEmail(phone_mail, itemID, access_token, message) {
-		console.log("Send email " + message);
+		console.log("Send email " + message + "with token:" + access_token);
 
 		var headers_obj = {
 			'From': "technology@carolinaftk.org",
@@ -129,7 +128,6 @@ class Login extends Component {
 				'Content-Type': 'application/json'
 			})
 		}
-
 		fetch(GMAIL_API, SEND_EMAIL).then( response => {
 	        return(response.json());
 	    }).then( response_json =>  {
