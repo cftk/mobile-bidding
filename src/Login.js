@@ -5,7 +5,7 @@ import fire from './fire';
 import Admin from './Admin';
 import User from './User';
 
-const CLIENT_ID = '106678752149-b866dj46pea661up5rog69raduuilefc.apps.googleusercontent.com';
+const CLIENT_ID = '106678752149-6fhc1s1ebs2n3vcefamuctssrjtomiqd.apps.googleusercontent.com';
 const CLIENT_SECRET = 'oYI246alaYw88y0xT7BUwaOd';
 const REFRESH_TOKEN = '1/klPozYkvMH6N2G5bG7jHmWbwOTrjKCQuyWodJEmAqAw';
 
