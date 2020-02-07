@@ -9,8 +9,8 @@ const CLIENT_ID = '106678752149-b866dj46pea661up5rog69raduuilefc.apps.googleuser
 const CLIENT_SECRET = '2fo-1JOelT5AXwLzeAEjeOVO';
 const REFRESH_TOKEN = '1/klPozYkvMH6N2G5bG7jHmWbwOTrjKCQuyWodJEmAqAw';
 
-const REFRESH_URL = "https://oauth2.googleapis.com/token";
-const GMAIL_API = "https://www.googleapis.com/auth/gmail.compose";
+const REFRESH_URL = "https://www.googleapis.com/oauth2/v4/token";
+const GMAIL_API = "https://www.googleapis.com/gmail/v1/users/me/messages/send";
 
 const ACCESS_REQUEST = `grant_type=refresh_token&client_id=${encodeURIComponent(CLIENT_ID)}&client_secret=${encodeURIComponent(CLIENT_SECRET)}&refresh_token=${encodeURIComponent(REFRESH_TOKEN)}`;
 
