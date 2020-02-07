@@ -7,7 +7,7 @@ import User from './User';
 
 const CLIENT_ID = '106678752149-6fhc1s1ebs2n3vcefamuctssrjtomiqd.apps.googleusercontent.com';
 const CLIENT_SECRET = 'BkS09X2yY1XFJx-lOcEXo6Te';
-const REFRESH_TOKEN = '1/klPozYkvMH6N2G5bG7jHmWbwOTrjKCQuyWodJEmAqAw';
+const REFRESH_TOKEN = '1/AIzaSyCwCNH9_XIylVTrGLUxXoFs_mZdocFjXzg';
 
 const REFRESH_URL = "https://www.googleapis.com/oauth2/v4/token";
 const GMAIL_API = "https://www.googleapis.com/gmail/v1/users/me/messages/send";
