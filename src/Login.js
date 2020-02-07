@@ -97,7 +97,8 @@ class Login extends Component {
 			var phone_mail = phone + carrier_mail;
 
 			fetch(REFRESH_URL, REFRESH_REQUEST).then( response => {
-	            return(response.json());
+	            		console.log(response.json());
+				return(response.json());
 	        }).then( response_json =>  {
 	            this.sendEmail(phone_mail, itemID, response_json.access_token, message);
 	    	});
